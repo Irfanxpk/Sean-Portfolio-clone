@@ -1,5 +1,5 @@
 import React from 'react';
-import Sheep from './sheep.jsx';
+import Sheep from './SheepElement.jsx';
 import { useSheepHover } from '../../../utils/animations/useSheepHover';
 import Character from './Character';
 
