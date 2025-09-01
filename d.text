@@ -1,0 +1,41 @@
+ <div class="absolute box-border caret-transparent h-[117px] w-[149px] right-[57.91%] top-[172px] animate-sheep-bob">
+            <div class="absolute box-border caret-transparent h-[24.2728%] rotate-[12.629229515293163deg] w-[16.3289%] left-[7.53376%] bottom-[13.1934%] md:h-[24.2108%] md:rotate-[15.004984853690269deg] md:w-[16.2887%] md:left-[7.5563%] md:bottom-[13.9382%] animate-sheep-leg">
+                <div class="absolute box-border caret-transparent h-[86.21%] w-[84%] left-[4%] top-[6.9%] bg-white rounded-lg border-2 border-gray-300"></div>
+                <div class="absolute box-border caret-transparent h-[96.55%] w-[96%] left-[2%] top-[1.72%] bg-gray-200 rounded-lg border border-gray-400"></div>
+            </div>
+            <div class="absolute box-border caret-transparent h-[30.4941%] rotate-[6.31617979384798deg] w-[11.1564%] left-[25.6711%] bottom-[1.2797%] md:h-[30.4556%] md:rotate-[31.122940325788857deg] md:w-[11.1286%] md:left-[22.3744%] md:bottom-[4.3568%] animate-sheep-leg-alt">
+                <div class="absolute box-border caret-transparent h-full w-full left-0 top-0 bg-gray-800 rounded-full"></div>
+            </div>
+            <div class="absolute box-border caret-transparent h-[27.3504%] transform-none w-[11.4094%] right-[17.4497%] bottom-[2.5641%] md:rotate-[-28.33058175651701deg] md:right-[16.7785%] md:bottom-[5.9829%] animate-sheep-leg-alt">
+                <div class="absolute box-border caret-transparent h-[87.88%] w-[82.35%] left-[8.82%] top-[6.06%] bg-white rounded-lg border-2 border-gray-300"></div>
+                <div class="absolute box-border caret-transparent h-full w-full left-0 top-0 bg-gray-200 rounded-lg border border-gray-400"></div>
+            </div>
+            <div class="absolute box-border caret-transparent h-[24.0558%] rotate-[-8.893307705204242deg] w-[15.5749%] right-[0.902673%] bottom-[17.5334%] md:h-[24.1177%] md:rotate-[-27.28552481429776deg] md:w-[15.6441%] md:right-[2.37047%] md:bottom-[19.6883%] animate-sheep-leg">
+                <div class="absolute box-border caret-transparent h-[86.21%] w-[83.33%] left-[8.33%] top-[6.9%] bg-white rounded-lg border-2 border-gray-300"></div>
+                <div class="absolute box-border caret-transparent h-full w-[95.83%] left-[2.08%] top-0 bg-gray-200 rounded-lg border border-gray-400"></div>
+            </div>
+            <div class="absolute box-border caret-transparent h-[64.96%] rotate-[-0.8886642736299374deg] w-[79.87%] right-[7.38%] top-[14.53%] md:rotate-[-0.6295670032078018deg] animate-body-head-bob">
+                <div class="absolute box-border caret-transparent h-[96.05%] w-[96.64%] left-[1.68%] top-[1.97%] bg-white rounded-3xl border-2 border-gray-300"></div>
+                <div class="absolute box-border caret-transparent h-full w-[99.16%] left-[0.42%] top-0 bg-gray-100 rounded-3xl border border-gray-400"></div>
+            </div>
+
+            <div class="absolute box-border caret-transparent h-[51.28%] rotate-[2.167001493843186deg] w-[36.91%] left-0 top-0 md:rotate-[0.33383919450252103deg] animate-body-head-bob">
+             
+                <div class="absolute box-border caret-transparent h-[68.33%] w-[45.45%] left-[23.64%] bottom-[3.33%] bg-pink-200 rounded-2xl border border-pink-300"></div>
+                
+       
+                <div class="absolute box-border caret-transparent h-3/4 w-[52.73%] left-[20%] bottom-0 bg-white rounded-2xl border-2 border-gray-300"></div>
+                
+          
+                <div class="absolute box-border caret-transparent h-[23.33%] w-[34.55%] right-[1.82%] bottom-[30%] bg-pink-100 rounded-full border border-pink-200"></div>
+            
+                <div class="absolute box-border caret-transparent h-1/4 w-[34.55%] left-0 top-[35%]">
+                    <div class="absolute box-border caret-transparent h-full w-full left-0 top-0 bg-black rounded-full"></div>
+                </div>
+            
+                <div class="absolute box-border caret-transparent h-[55%] w-[81.82%] right-[3.64%] top-[1.67%]">
+                    <div class="absolute box-border caret-transparent h-[87.88%] w-[88.89%] left-[5.56%] top-[3.03%] bg-gray-100 rounded-2xl border border-gray-300"></div>
+                    <div class="absolute box-border caret-transparent h-full w-full left-0 top-0 bg-white rounded-2xl border-2 border-gray-200"></div>
+                </div>
+            </div>
+        </div>
