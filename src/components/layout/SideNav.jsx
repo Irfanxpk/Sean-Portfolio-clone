@@ -17,7 +17,7 @@ const SideNav = () => {
           {/* Top rotated title */}
           <div className="rotate-270 w-[158px] h-14 text-sm bg-black flex items-center justify-center text-white">
             <div className="text-[16px] hover-smooth">
-              <a href="">seanlindesign</a>
+              <a href="/">seanlindesign</a>
             </div>
           </div>
 
@@ -54,6 +54,7 @@ const SideNav = () => {
             src="/images/personal/home-copy-952a4930-copy3x-F5B26E2E-84BD-4AAD-A4B8-DBE862C187DF@2x.png"
             alt="logo"
             className="w-8 h-auto hover:rotate-25 transition-all duration-300 ease-in-out"
+            onClick={() => setIsAboutOpen(true)}
           />
         </div>
       </div>

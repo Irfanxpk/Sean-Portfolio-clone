@@ -114,11 +114,11 @@ const Character = () => {
           </div>
         </div>
       </a>
-      <a className="box-border caret-transparent contents">
+      <a className="box-border caret-transparent contents  absolute  ">
         <img
           src="https://c.animaapp.com/mezthykjsE5yvm/assets/homestandard-952a4930-copy3x-34645107-8BF5-4A9A-BEB2-E61F98E8E65B@2x.png"
           alt="Face"
-          className="absolute box-border caret-transparent h-[84px] w-[63px] left-[242px] top-0"
+          className="absolute box-border caret-transparent h-[84px] w-[63px] left-[242px] top-0 hover:scale-110 duration-300 ease-in-out"
         />
       </a>
     </div>
