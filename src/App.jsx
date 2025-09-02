@@ -1,10 +1,11 @@
-import React from "react";
+import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import AboutPage from "./pages/About";
-import SideNav from "./components/layout/SideNav";
-import BottomNav from "./components/layout/BottomNav";
-import ProjectDetail from "./pages/projects/ProjectDetails";
+import Home from "@/pages/Home/Home";
+import AboutPage from "@/pages/About";
+import SideNav from "@/components/layout/SideNav";
+import BottomNav from "@/components/layout/BottomNav";
+
+const ProjectDetail = lazy(() => import("@/pages/projects/ProjectDetails"));
 
 function App() {
   return (

@@ -129,6 +129,28 @@
   }
 }
 
+/* styles.css */
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px); /* slide up from bottom */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in {
+  opacity: 0; /* hidden initially */
+  transition: opacity 0.3s ease;
+}
+
+.slide-in.active {
+  animation: slideIn 1s ease forwards;
+}
+
 @layer utilities {
   /* Hand waving (up and down) */
   @keyframes hand-wave {

@@ -1,4 +1,4 @@
-import { footerContent } from "../../../utils/constants/footerData";
+import { footerContent } from "@/utils/constants/footerData";
 
 export default function Footer() {
   return (
@@ -18,7 +18,9 @@ export default function Footer() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-sm text-[20px] max-w-xl ">
             {footerContent.professionalProjects.items.map((item, idx) => (
-              <p key={idx} className="text-[#FAFBFF] text-[20px] leading-6 ">{item}</p>
+              <p key={idx} className="text-[#FAFBFF] text-[20px] leading-6 ">
+                {item}
+              </p>
             ))}
           </div>
         </div>
