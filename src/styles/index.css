@@ -207,6 +207,19 @@
   }
 }
 
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-100%); /* start above the screen */
+  }
+  to {
+    transform: translateY(0); /* end in place */
+  }
+}
+
+.about-modal {
+  animation: slideInFromTop 0.3s ease-out;
+}
+
 /* Base styles */
 @layer base {
   html {

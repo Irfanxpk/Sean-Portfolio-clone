@@ -1,4 +1,8 @@
+import { useState } from "react";
+import AboutModal from "../sections/About/About";
+
 const SideNav = () => {
+  const [isAboutOpen, setIsAboutOpen] = useState(false);
   const navItems = [
     { name: "About", href: "#about" },
     { name: "Design", href: "#design" },
@@ -23,12 +27,21 @@ const SideNav = () => {
               {navItems.map((item) => (
                 <div key={item.name} className="border-b border-black w-14 p-2">
                   <li className="my-6 writing-vertical-rl rotate-270 hover-smooth">
-                    <a
-                      href={item.href}
-                      className="text-gray-800 text-sm no-underline hover:text-gray-600 transition-all duration-300 ease-in-out"
-                    >
-                      {item.name}
-                    </a>
+                    {item.name === "About" ? (
+                      <button
+                        onClick={() => setIsAboutOpen(true)}
+                        className="text-gray-800 text-sm no-underline hover:text-gray-600 transition-all duration-300 ease-in-out focus:outline-none border-none"
+                      >
+                        {item.name}
+                      </button>
+                    ) : (
+                      <a
+                        href={item.href}
+                        className="text-gray-800 text-sm no-underline hover:text-gray-600 transition-all duration-300 ease-in-out text-shadow-none"
+                      >
+                        {item.name}
+                      </a>
+                    )}
                   </li>
                 </div>
               ))}
@@ -44,6 +57,7 @@ const SideNav = () => {
           />
         </div>
       </div>
+      <AboutModal isOpen={isAboutOpen} onClose={() => setIsAboutOpen(false)} />
     </nav>
   );
 };

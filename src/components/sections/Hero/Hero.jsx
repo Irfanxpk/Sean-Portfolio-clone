@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Sheep from "./SheepElement.jsx";
 import { useSheepHover } from "@/utils/animations/useSheepHover";
 import Character from "./Character";
+import AboutModal from "../About/About.jsx";
 
 const Hero = () => {
+  const [isAboutOpen, setIsAboutOpen] = useState(false);
+
   // independent sheep animations
   const sheepRef1 = useSheepHover("120vw", 6);
   const sheepRef2 = useSheepHover("120vw", 7);
@@ -19,16 +22,20 @@ const Hero = () => {
           Nice to meet you, I’m Sean Lin.
         </h5>
       </div>
-      <div className=" absolute top-0 right-0  w-1/6 flex justify-center cursor-pointer ">
+      <div
+        className=" absolute top-0 right-0  w-1/6 flex justify-center cursor-pointer "
+        onClick={() => setIsAboutOpen(true)}
+      >
         <div className="pt-4 pl-2 flex flex-col gap-1 items-center">
-          <a
-            href=""
-            className=" text-[#003FFF] font-bold tracking-tight underline "
+          <button
+            onClick={() => setIsAboutOpen(true)}
+            className=" text-[#003FFF] font-bold tracking-tight underline cursor-pointer "
           >
             Meet Sean
-          </a>
+          </button>
           <img src="/images/arrow.png" alt="" className="h-[30px] w-[12px]" />
         </div>
+
         <Character />
       </div>
       {/* Sheep layout */}
@@ -63,6 +70,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      <AboutModal isOpen={isAboutOpen} onClose={() => setIsAboutOpen(false)} />
     </section>
   );
 };
